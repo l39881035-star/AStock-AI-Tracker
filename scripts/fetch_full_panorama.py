@@ -32,7 +32,7 @@ def fetch_juchao_announcement(stock_code, stock_name, limit=3):
         with urllib.request.urlopen(req, timeout=5) as r:
             res = json.loads(r.read().decode('utf-8'))
         
-        items = res.get('announcements', [])
+        items = res.get('announcements') or []
         news_list = []
         for i in items:
             title = i.get('announcementTitle', '').replace('<em>', '').replace('</em>', '')
