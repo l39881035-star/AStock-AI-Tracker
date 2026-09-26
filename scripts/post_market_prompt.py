@@ -2,7 +2,6 @@ import json
 import os
 from fetch_market import get_tencent_data
 
-# 使用绝对路径，防止 cron 执行时 cwd 变化导致找不到文件
 script_dir = os.path.dirname(os.path.abspath(__file__))
 config_path = os.path.join(script_dir, 'config.json')
 
@@ -12,9 +11,13 @@ with open(config_path, 'r', encoding='utf-8') as f:
 print("【系统背景指令】")
 print(f"你是一个冷酷、理性的 A 股实战交易幕僚。")
 print(f"用户的底牌与操作纪律：{config['style']}\n")
+print("【当前时间状态】⚠️ 警告：现在 A 股已经收盘！")
 print("以下是收盘后的绝对真实数据（由底层 Python 程序通过腾讯 API 硬算得出，不存在幻觉）。")
 print("请你阅读这些数据，直接生成一份推送到用户微信的《盘后对账与复盘报告》。")
-print("输出要求：结构清晰，包含 [实际走势]、[盘后诊断]、[应对纪律修正] 三个板块。语气要像军师一样果断。\n")
+print("【输出结构要求】：")
+print("1. [今日真实走势]：客观描述收盘结果。")
+print("2. [盘后逻辑诊断]：一针见血指出支撑和压力位的得失，以及主力意图。")
+print("3. [明日推演与应对剧本]：既然已经收盘，绝不允许写“今日日内狙击/操作”这种马后炮废话！所有的 If-Then 剧本，必须是指向【明天开盘后】的防守或做T预案！\n")
 
 print("================ 实盘数据输入 ================")
 for s in config['stocks']:
