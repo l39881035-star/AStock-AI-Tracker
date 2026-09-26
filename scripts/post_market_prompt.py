@@ -1,7 +1,12 @@
 import json
+import os
 from fetch_market import get_tencent_data
 
-with open('config.json', 'r', encoding='utf-8') as f:
+# 使用绝对路径，防止 cron 执行时 cwd 变化导致找不到文件
+script_dir = os.path.dirname(os.path.abspath(__file__))
+config_path = os.path.join(script_dir, 'config.json')
+
+with open(config_path, 'r', encoding='utf-8') as f:
     config = json.load(f)
 
 print("【系统背景指令】")
