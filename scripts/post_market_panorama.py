@@ -1,6 +1,8 @@
 import json
 import os
-from fetch_full_panorama import get_tencent_panorama, fetch_sina_7x24_news
+import sys
+import datetime
+from fetch_full_panorama import get_tencent_panorama, fetch_juchao_announcement
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
 config_path = os.path.join(script_dir, 'config.json')
@@ -8,22 +10,23 @@ config_path = os.path.join(script_dir, 'config.json')
 with open(config_path, 'r', encoding='utf-8') as f:
     config = json.load(f)
 
+# P0-3 时间保护与节假日判断。如果是盘中调用，禁止发盘后文案。
+now = datetime.datetime.now()
+is_market_closed = (now.hour >= 15)
+time_warning = "【当前时间状态】⚠️ 警告：现在 A 股已经收盘！所有的应对剧本，必须是指向【明天开盘后】的操作预案！" if is_market_closed else "【当前时间状态】现在是盘中，重点监控支撑与压力位的得失。"
+
+print("数据截止最新收盘 | 价格源：腾讯 | 资金源：新浪 MoneyFlow | 公告源：巨潮资讯\n")
 print("【系统背景指令】")
-print(f"你是一个冷酷、理性的 A 股实战交易幕僚。结合技术面、资金面和消息面，做系统级推演。")
+print(f"你是一个冷酷、理性的 A 股实战交易幕僚。结合技术面、资金面和个股消息面，做系统级推演。")
 print(f"用户的底牌与操作纪律：{config['style']}\n")
-print("【当前时间状态】⚠️ 警告：现在 A 股已经收盘！所有的应对剧本，必须是指向【明天开盘后】的操作预案！")
-print("以下是收盘后的 3D 真实全景数据（涵盖技术/主力/舆情）。请生成推送到微信的《全景复盘与推演报告》。")
+print(time_warning)
+print("以下是绝对真实的 3D 全景数据（涵盖技术/主力/舆情）。请生成推送到微信的《全景复盘与推演报告》。")
 print("【输出结构要求】：")
-print("1. [消息与情绪过滤]：一句话总结大盘今日情绪与是否有突发新闻。")
-print("2. [资金与技术共振诊断]：不仅要看均线支撑，必须点出主力资金（净流入/净流出）和换手率背后的逻辑（例如：假突破真出货，还是缩量洗盘）。")
-print("3. [明日推演与 If-Then 剧本]：给出明确的条件触发预案。\n")
+print("1. [个股公告与情绪]：总结巨潮传来的最新个股公告，一句话定性情绪。")
+print("2. [资金与技术共振诊断]：不仅要看均线支撑，必须点出真实主力资金（净流入/净流出，大单级别）和换手率背后的逻辑（例如：假突破真出货，还是缩量洗盘）。")
+print("3. [明日推演与 If-Then 剧本]：必须带有具体点位的条件触发预案。\n")
 
-print("================ [宏观消息面] 7x24 最新异动扫描 ================")
-news = fetch_sina_7x24_news(limit=5)
-for n in news:
-    print("-", n)
-
-print("\n================ [个股全景数据输入] ================")
+print("================ [个股全景数据输入] ================")
 for s in config['stocks']:
     data = get_tencent_panorama(s['code'])
     if not data['pass']:
@@ -35,6 +38,12 @@ for s in config['stocks']:
     print(f"收盘价: {data['price']} 元 (开:{data['open']}, 高:{data['high']}, 低:{data['low']})")
     print(f"[技术面] 均线阵列: MA5={data['ma5']}, MA10={data['ma10']}, MA20={data['ma20']}")
     print(f"[技术面] 前20日真实压力位: {data['resistance']} 元 | 支撑位: {data['support']} 元")
-    print(f"[筹码资金] 换手率: {data['turnover']}% | 量比: {data['vol_ratio']}")
-    print(f"[主力动向] 大单净流入(近似值): {data['main_net_inflow']} 万元 | 动态PE: {data['pe_ttm']}")
+    print(f"[筹码资金] 换手率: {data['turnover']}% | 腾讯量比: {data['vol_ratio']}")
+    print(f"[真实主力动向] 大单净流入(新浪口径): {data['main_net_inflow']} 万元 | 动态PE: {data['pe_ttm']}")
+    
+    print(f"[巨潮最新公告监控]:")
+    news = fetch_juchao_announcement(s['code'], data['name'], limit=2)
+    for n in news:
+        print("  -", n)
+        
     print("-" * 40)
