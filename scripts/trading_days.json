@@ -1,0 +1,1471 @@
+{
+  "_说明": "A股交易日历。open=true 为交易日。覆盖范围内可放心使用；超出覆盖范围必须走兜底规则，不得猜测。",
+  "updated_at": "2026-09-22",
+  "coverage": {
+    "start": "2026-01-01",
+    "end": "2026-12-31"
+  },
+  "source": "深交所 monthList（https://www.szse.cn/api/report/exchange/onepersistenthour/monthList?month=YYYY-MM）",
+  "days": {
+    "2026-01-01": {
+      "open": false,
+      "kind": "holiday"
+    },
+    "2026-01-02": {
+      "open": false,
+      "kind": "holiday"
+    },
+    "2026-01-03": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-01-04": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-01-05": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-01-06": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-01-07": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-01-08": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-01-09": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-01-10": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-01-11": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-01-12": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-01-13": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-01-14": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-01-15": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-01-16": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-01-17": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-01-18": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-01-19": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-01-20": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-01-21": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-01-22": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-01-23": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-01-24": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-01-25": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-01-26": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-01-27": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-01-28": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-01-29": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-01-30": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-01-31": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-02-01": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-02-02": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-02-03": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-02-04": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-02-05": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-02-06": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-02-07": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-02-08": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-02-09": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-02-10": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-02-11": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-02-12": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-02-13": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-02-14": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-02-15": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-02-16": {
+      "open": false,
+      "kind": "holiday"
+    },
+    "2026-02-17": {
+      "open": false,
+      "kind": "holiday"
+    },
+    "2026-02-18": {
+      "open": false,
+      "kind": "holiday"
+    },
+    "2026-02-19": {
+      "open": false,
+      "kind": "holiday"
+    },
+    "2026-02-20": {
+      "open": false,
+      "kind": "holiday"
+    },
+    "2026-02-21": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-02-22": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-02-23": {
+      "open": false,
+      "kind": "holiday"
+    },
+    "2026-02-24": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-02-25": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-02-26": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-02-27": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-02-28": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-03-01": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-03-02": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-03-03": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-03-04": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-03-05": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-03-06": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-03-07": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-03-08": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-03-09": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-03-10": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-03-11": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-03-12": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-03-13": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-03-14": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-03-15": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-03-16": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-03-17": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-03-18": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-03-19": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-03-20": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-03-21": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-03-22": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-03-23": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-03-24": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-03-25": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-03-26": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-03-27": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-03-28": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-03-29": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-03-30": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-03-31": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-04-01": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-04-02": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-04-03": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-04-04": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-04-05": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-04-06": {
+      "open": false,
+      "kind": "holiday"
+    },
+    "2026-04-07": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-04-08": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-04-09": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-04-10": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-04-11": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-04-12": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-04-13": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-04-14": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-04-15": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-04-16": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-04-17": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-04-18": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-04-19": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-04-20": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-04-21": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-04-22": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-04-23": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-04-24": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-04-25": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-04-26": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-04-27": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-04-28": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-04-29": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-04-30": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-05-01": {
+      "open": false,
+      "kind": "holiday"
+    },
+    "2026-05-02": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-05-03": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-05-04": {
+      "open": false,
+      "kind": "holiday"
+    },
+    "2026-05-05": {
+      "open": false,
+      "kind": "holiday"
+    },
+    "2026-05-06": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-05-07": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-05-08": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-05-09": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-05-10": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-05-11": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-05-12": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-05-13": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-05-14": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-05-15": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-05-16": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-05-17": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-05-18": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-05-19": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-05-20": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-05-21": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-05-22": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-05-23": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-05-24": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-05-25": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-05-26": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-05-27": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-05-28": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-05-29": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-05-30": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-05-31": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-06-01": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-06-02": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-06-03": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-06-04": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-06-05": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-06-06": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-06-07": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-06-08": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-06-09": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-06-10": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-06-11": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-06-12": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-06-13": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-06-14": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-06-15": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-06-16": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-06-17": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-06-18": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-06-19": {
+      "open": false,
+      "kind": "holiday"
+    },
+    "2026-06-20": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-06-21": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-06-22": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-06-23": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-06-24": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-06-25": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-06-26": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-06-27": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-06-28": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-06-29": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-06-30": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-07-01": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-07-02": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-07-03": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-07-04": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-07-05": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-07-06": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-07-07": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-07-08": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-07-09": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-07-10": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-07-11": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-07-12": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-07-13": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-07-14": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-07-15": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-07-16": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-07-17": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-07-18": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-07-19": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-07-20": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-07-21": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-07-22": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-07-23": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-07-24": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-07-25": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-07-26": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-07-27": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-07-28": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-07-29": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-07-30": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-07-31": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-08-01": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-08-02": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-08-03": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-08-04": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-08-05": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-08-06": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-08-07": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-08-08": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-08-09": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-08-10": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-08-11": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-08-12": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-08-13": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-08-14": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-08-15": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-08-16": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-08-17": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-08-18": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-08-19": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-08-20": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-08-21": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-08-22": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-08-23": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-08-24": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-08-25": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-08-26": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-08-27": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-08-28": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-08-29": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-08-30": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-08-31": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-09-01": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-09-02": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-09-03": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-09-04": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-09-05": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-09-06": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-09-07": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-09-08": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-09-09": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-09-10": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-09-11": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-09-12": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-09-13": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-09-14": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-09-15": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-09-16": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-09-17": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-09-18": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-09-19": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-09-20": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-09-21": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-09-22": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-09-23": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-09-24": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-09-25": {
+      "open": false,
+      "kind": "holiday"
+    },
+    "2026-09-26": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-09-27": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-09-28": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-09-29": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-09-30": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-10-01": {
+      "open": false,
+      "kind": "holiday"
+    },
+    "2026-10-02": {
+      "open": false,
+      "kind": "holiday"
+    },
+    "2026-10-03": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-10-04": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-10-05": {
+      "open": false,
+      "kind": "holiday"
+    },
+    "2026-10-06": {
+      "open": false,
+      "kind": "holiday"
+    },
+    "2026-10-07": {
+      "open": false,
+      "kind": "holiday"
+    },
+    "2026-10-08": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-10-09": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-10-10": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-10-11": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-10-12": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-10-13": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-10-14": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-10-15": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-10-16": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-10-17": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-10-18": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-10-19": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-10-20": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-10-21": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-10-22": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-10-23": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-10-24": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-10-25": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-10-26": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-10-27": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-10-28": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-10-29": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-10-30": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-10-31": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-11-01": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-11-02": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-11-03": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-11-04": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-11-05": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-11-06": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-11-07": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-11-08": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-11-09": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-11-10": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-11-11": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-11-12": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-11-13": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-11-14": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-11-15": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-11-16": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-11-17": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-11-18": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-11-19": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-11-20": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-11-21": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-11-22": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-11-23": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-11-24": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-11-25": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-11-26": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-11-27": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-11-28": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-11-29": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-11-30": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-12-01": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-12-02": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-12-03": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-12-04": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-12-05": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-12-06": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-12-07": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-12-08": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-12-09": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-12-10": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-12-11": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-12-12": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-12-13": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-12-14": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-12-15": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-12-16": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-12-17": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-12-18": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-12-19": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-12-20": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-12-21": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-12-22": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-12-23": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-12-24": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-12-25": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-12-26": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-12-27": {
+      "open": false,
+      "kind": "weekend"
+    },
+    "2026-12-28": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-12-29": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-12-30": {
+      "open": true,
+      "kind": "trading"
+    },
+    "2026-12-31": {
+      "open": true,
+      "kind": "trading"
+    }
+  }
+}
