@@ -1,4 +1,4 @@
-# NAS全自动24小时监测自选股 (AStock-AI-Tracker)
+# 跑在nas上的24小时自选股监控系统 (AStock-AI-Tracker)
 
 基于个人 NAS (如 TRIM/fnOS) 部署的**纯本地、全自动、确定性**股票复盘与交易辅助系统。
 
